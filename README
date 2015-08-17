@@ -1,0 +1,10 @@
+This version of the NAS Parallel Benchmarks has been patched in order to
+generate LLVM IR bitcode instead of regular executables.
+
+This requires LLVM, GCC and dragonegg.
+
+You might want to adjust the path to the dragonegg plugin and your MPI header
+files in config/make.def.
+
+To just have a quick look at the IR, check out the bin directory, it contains
+some pregenerated "binaries".
